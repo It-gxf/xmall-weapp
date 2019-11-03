@@ -12,8 +12,8 @@ Page({
       isDefault: true,
       name: 'Exrick',
       mobile: '17621230884',
-      address: '四川省成都市武侯区',
-      street: '益州大道香月湖7栋188号'
+      address: '伊仕特·爱西稍门店',
+      street: '伊仕特·爱西稍门店'
     },
     totalPrice: 0,
     expressPrice: 0,

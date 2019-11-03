@@ -11,8 +11,8 @@ Page({
         id: '1',
         name: 'Exrick',
         mobile: '17621230888',
-        address: '四川省成都市武侯区',
-        street: '益州大道888号香月湖7栋',
+        address: '西北公司B座食堂',
+        street: '西北公司B座食堂',
         isDefault: true,
         checked: false
       },
@@ -20,8 +20,8 @@ Page({
         id: '2',
         name: 'XMall',
         mobile: '17621230888',
-        address: '四川省成都市武侯区',
-        street: '益州大道888号香月湖66栋',
+        address: '伊仕特·爱西稍门店',
+        street: '伊仕特·爱西稍门店',
         isDefault: false,
         checked: false
       }

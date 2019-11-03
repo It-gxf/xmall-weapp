@@ -20,12 +20,12 @@
     </view>
 
     <!-- 快捷频道图标 -->
-    <view class="menu" wx:if="{{item.type==1&&item.list.length>0}}">
+    <!-- <view class="menu" wx:if="{{item.type==1&&item.list.length>0}}">
       <view class="item" wx:for="{{item.list}}" wx:for-item="iitem" wx:key="{{iitem.id}}" data-value="{{iitem}}" bindtap="handleClick">
         <image src="{{iitem.picUrl}}" background-size="cover" data-value="{{iitem}}"></image>
         <text>{{iitem.title}}</text>
       </view>
-    </view>
+    </view> -->
 
     <!-- 热门板块 -->
     <view class="section hot" wx:if="{{item.type==2&&item.list.length>0}}">
@@ -43,11 +43,11 @@
     </view>
 
     <!-- 两张长图板块 -->
-    <view class="section layout-two" wx:if="{{item.type==3&&item.list.length>0}}">
+    <!-- <view class="section layout-two" wx:if="{{item.type==3&&item.list.length>0}}">
       <view class="layout-image-two" wx:for="{{item.list}}" wx:for-item="iitem" wx:key="iitem.id" data-value="{{iitem}}" bindtap="handleClick">
         <image class="layout-image-two" src="{{iitem.picUrl}}" mode="aspectFit"></image>
       </view>
-    </view>
+    </view> -->
 
     <!-- 大图带边框板块 -->
     <view class="section pick" wx:if="{{item.type==4&&item.list.length>0}}">

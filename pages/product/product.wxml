@@ -33,7 +33,7 @@
   <view class="vip-banner" bindtap="toVip">
     <view class="left">
       <image class="image" src="/assets/vip.png"></image>
-      <text>超级会员价￥0.01</text>
+      <text>会员价￥0.01</text>
     </view>
 
     <view class="right">
@@ -66,8 +66,8 @@
 <view class="attr-wrap" wx:if="{{product.promotion==1}}">
   <view class="attr">
     <view class="left">
-      <text class="title">限制</text>
-      <text class="limit">特价商品不可与优惠券叠加使用</text>
+      <text class="title">店内营业时间：</text>
+      <text class="limit">9:00-17:00</text>
     </view>
   </view>
 </view>
@@ -172,12 +172,12 @@
 </view>
 
 <!-- 优惠券选择 -->
-<van-popup show="{{ couponShow }}" class="coupon-pop" position="bottom" bind:close="closeCoupon">
+<!-- <van-popup show="{{ couponShow }}" class="coupon-pop" position="bottom" bind:close="closeCoupon">
   <view class="title">领劵</view>
   <view class="coupon-wrap">
     <coupon data="{{item}}" wx:for="{{couponList}}" wx:key="{{item.id}}" data-value="{{item}}" bindtap="choose" class="item" />
   </view>
-</van-popup>
+</van-popup> -->
 
 <!-- 服务详情 -->
 <van-popup show="{{ serviceShow }}" position="bottom" bind:close="closeService">

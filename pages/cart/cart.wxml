@@ -1,25 +1,25 @@
 <!--pages/cart/cart.wxml-->
 <view>
   <!-- header -->
-  <view class="service-policy" wx:if="{{noChecked||!isLogin}}">
+  <!-- <view class="service-policy" wx:if="{{noChecked||!isLogin}}">
     <view class="item">
       <image class="red-point" src="/assets/redPoint.png"></image>30天无忧退货</view>
     <view class="item">
       <image class="red-point" src="/assets/redPoint.png"></image>48小时快速退款</view>
     <view class="item">
       <image class="red-point" src="/assets/redPoint.png"></image>满88元免邮费</view>
-  </view>
+  </view> -->
   <!-- 包邮显示 -->
-  <view class="notice" wx:if="{{!noChecked&&isLogin}}">
+  <!-- <view class="notice" wx:if="{{!noChecked&&isLogin}}">
     <text wx:if="{{isExpressFree}}">已满足包邮条件</text>
     <text wx:if="{{!isExpressFree}}">再购￥{{restExpressFree}}元可免邮费</text>
     <view class="right" bindtap="toBuyOther" wx:if="{{!isExpressFree}}">
       <text>去凑单</text>
       <van-icon class="arrow" color="#f48f18" name="arrow" />
     </view>
-  </view>
+  </view> -->
   <!-- 加价购 -->
-  <view class="promotion" wx:if="{{cartList.length>0&&isLogin}}">
+  <!-- <view class="promotion" wx:if="{{cartList.length>0&&isLogin}}">
     <view class="left" wx:if="{{isPromotion}}">
       <view class="tag">全场加价购</view>
       <text>已满足满130元可超值换购</text>
@@ -36,7 +36,7 @@
       <text>去凑单</text>
       <van-icon class="arrow" color="#b4282d" name="arrow" />
     </view>
-  </view>
+  </view> -->
   <!-- 空 -->
   <view class="{{isLogin ? 'no-cart-small' : 'no-cart'}}" wx:if="{{!isLogin||cartList.length==0}}">
     <view class="add">

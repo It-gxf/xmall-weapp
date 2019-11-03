@@ -53,22 +53,12 @@ Page({
       let data = [{
         id: 1,
         checked: false,
-        picUrl: 'https://resource.smartisan.com/resource/71432ad30288fb860a4389881069b874.png',
-        title: '畅呼吸智能空气净化器',
-        spec: '标准版 白色',
+        picUrl: '/static/img/有机奶.png',
+        title: '白娃娃有机奶',
+        spec: '原味',
         count: 1,
         maxNum: 99,
-        price: 1299.00
-      },
-      {
-        id: 2,
-        checked: true,
-        picUrl: 'https://yanxuan.nosdn.127.net/e9cecc7cb24a8d7745da1c99b87dde08.png',
-        title: '丛林系列·缝线笔记本 4本装',
-        spec: '丛林系列',
-        count: 1,
-        maxNum: 99,
-        price: 29.00
+        price: 50.00
       }];
       this.setData({
         cartList: data

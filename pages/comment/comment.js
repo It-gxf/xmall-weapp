@@ -20,40 +20,40 @@ Page({
       {
         nickname: "Exrick",
         avatar: "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJTqQ5hNKicCNEwW3cATfOTaXk6xMlNEfh1gm0kicPDtJrXwTf5YEqQXYea3m5vsuPyJUXc3U0OicXtA/132",
-        content: "很好，手机很有质感，值得购买。",
+        content: "很好,值得购买。",
         rate: 5,
         time: '2019.08.18',
-        spec: "银色 64G",
+        spec: "原味",
         pics: [
-          "https://img30.360buyimg.com/shaidan/s616x405_jfs/t1/65005/20/4818/92581/5d2ffdb6Ebcbf3018/35411a583e29d52d.jpg",
-          "https://img30.360buyimg.com/shaidan/s616x405_jfs/t1/74460/28/4830/96562/5d2ffdb7Ed5e9ce7a/e764b3daa92a9c67.jpg"
+          "/static/img/有机奶.png"
         ]
       },
       {
         nickname: "Exrick",
         avatar: "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJTqQ5hNKicCNEwW3cATfOTaXk6xMlNEfh1gm0kicPDtJrXwTf5YEqQXYea3m5vsuPyJUXc3U0OicXtA/132",
-        content: "使用了一段时间了，没有问题，美观大方实用，屏幕分辨率高，屏幕也很大，上网速度快，一点儿也不卡，非常喜欢，应该是正品，高大上的手机。",
+        content: "很好,值得购买。",
         rate: 5,
-        time: '2019.07.18',
-        spec: "银色 128G",
+        time: '2019.08.18',
+        spec: "原味",
         pics: [
-          "https://img30.360buyimg.com/shaidan/s616x405_jfs/t30139/201/1464242510/283903/eb956f0c/5ce123a6Na2d27731.jpg"
+          "/static/img/有机奶.png"
         ]
       },
       {
         nickname: "Exrick",
         avatar: "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJTqQ5hNKicCNEwW3cATfOTaXk6xMlNEfh1gm0kicPDtJrXwTf5YEqQXYea3m5vsuPyJUXc3U0OicXtA/132",
-        content: "Nice！",
+        content: "很好,值得购买。",
         rate: 5,
-        time: '2019.09.18',
-        spec: "银色 64G",
+        time: '2019.08.18',
+        spec: "原味",
         pics: [
+          "/static/img/有机奶.png"
         ],
         addComment: {
           time: "2019.06.19",
-          content: "好用！",
+          content: "好！",
           pics: [
-            "https://img30.360buyimg.com/shaidan/s616x405_jfs/t1/49424/25/6227/165448/5d3c96c7Eb2cc58e0/cc0b911eb740d389.jpg"
+            "/static/img/有机奶.png"
           ]
         }
       }

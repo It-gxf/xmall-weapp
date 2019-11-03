@@ -18,7 +18,7 @@
 
 <!-- 订单信息 -->
 <van-cell-group class="order-box">
-  <van-cell custom-class="cell" title="优惠券：{{coupon.id ?  coupon.title : '未选择' }}" value="{{couponCount}} 张" is-link bindtap="chooseCoupon"/>
+  <!-- <van-cell custom-class="cell" title="优惠券：{{coupon.id ?  coupon.title : '未选择' }}" value="{{couponCount}} 张" is-link bindtap="chooseCoupon"/> -->
   <van-cell title="商品合计" value="￥{{totalPrice}}" />
   <van-cell title="运费" value="￥{{expressPrice}}" />
   <van-cell title="优惠券" value="-￥{{coupon.discount}}" wx:if="{{coupon.id}}" />
